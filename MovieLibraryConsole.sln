@@ -1,19 +1,31 @@
-﻿using MovieLibraryEntities.Context;
-using MovieLibraryEntities.Models;
-
-var context = new MovieContext();
-
-var movies = context.Movies;
-
-movies.Add(new Movie() { });
-
-
-
-
-
-
-
-
-//using MovieLibraryEntities.Dao;
-
-//var repositiry = new Repository();
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieLibraryConsole", "MovieLibraryConsole\MovieLibraryConsole.csproj", "{F76FDBCC-4EA0-4D04-A1EB-B583DD7487B2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieLibraryEntities", "MovieLibraryEntities\MovieLibraryEntities.csproj", "{B750FA37-1C29-42C7-8201-B01A7D3BA2F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F76FDBCC-4EA0-4D04-A1EB-B583DD7487B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F76FDBCC-4EA0-4D04-A1EB-B583DD7487B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F76FDBCC-4EA0-4D04-A1EB-B583DD7487B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F76FDBCC-4EA0-4D04-A1EB-B583DD7487B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B750FA37-1C29-42C7-8201-B01A7D3BA2F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B750FA37-1C29-42C7-8201-B01A7D3BA2F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B750FA37-1C29-42C7-8201-B01A7D3BA2F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B750FA37-1C29-42C7-8201-B01A7D3BA2F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C2E38A4-3AFF-4CB6-B950-C9D1F9C0D03B}
+	EndGlobalSection
+EndGlobal
