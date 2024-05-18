@@ -1,0 +1,19 @@
+﻿using MovieLibraryEntities.Context;
+using MovieLibraryEntities.Models;
+
+var context = new MovieContext();
+
+var movies = context.Movies;
+
+movies.Add(new Movie() { });
+
+
+
+
+
+
+
+
+//using MovieLibraryEntities.Dao;
+
+//var repositiry = new Repository();
