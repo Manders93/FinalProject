@@ -1,10 +1,9 @@
 using MovieLibraryEntities.Models;
 
-namespace MovieLibraryEntities.Dao
+namespace MovieLibraryEntities.Dao;
+
+public interface IRepository
 {
-    public interface IRepository
-    {
-        IEnumerable<Movie> GetAll();
-        IEnumerable<Movie> Search(string searchString);
-    }
+    IEnumerable<Movie> GetAll();
+    IEnumerable<Movie> Search(string searchString);
 }

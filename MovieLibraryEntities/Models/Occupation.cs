@@ -1,8 +1,7 @@
-﻿namespace MovieLibraryEntities.Models
+﻿namespace MovieLibraryEntities.Models;
+
+public class Occupation
 {
-    public class Occupation
-    {
-        public long Id { get; set; }
-        public string Name { get; set; }
-    }
+    public long Id { get; set; }
+    public string Name { get; set; }
 }
